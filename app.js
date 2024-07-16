@@ -1,7 +1,7 @@
 let mensagem;
 let i = 1;
 while(true) {
-    mensagem = prompt('Digite um mensagem:');
+    mensagem = prompt('Digite uma mensagem:');
     if(mensagem === null || mensagem === '') {
         i++;
     } else {
